@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.18)  23 MAR 2023 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.18)  24 MAR 2023 15:53
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -734,19 +734,23 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.13 \newpage
-              [1] (problem_statement.tex) [2] (theory.tex [3]) [4] (realize.tex
-) [5] (result.tex
-<normal_hist_10.pdf, id=136, 462.52798pt x 346.89601pt>
+              [1] (problem_statement.tex) [2] (theory.tex [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+) [5] (realize.tex) [6] (result.tex
+<normal_hist_10.pdf, id=177, 462.52798pt x 346.89601pt>
 File: normal_hist_10.pdf Graphic file (type pdf)
 <use normal_hist_10.pdf>
 Package pdftex.def Info: normal_hist_10.pdf  used on input line 8.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<normal_hist_50.pdf, id=137, 462.52798pt x 346.89601pt>
+<normal_hist_50.pdf, id=178, 462.52798pt x 346.89601pt>
 File: normal_hist_50.pdf Graphic file (type pdf)
 <use normal_hist_50.pdf>
 Package pdftex.def Info: normal_hist_50.pdf  used on input line 9.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<normal_hist_1000.pdf, id=138, 462.52798pt x 346.89601pt>
+<normal_hist_1000.pdf, id=179, 462.52798pt x 346.89601pt>
 File: normal_hist_1000.pdf Graphic file (type pdf)
 <use normal_hist_1000.pdf>
 Package pdftex.def Info: normal_hist_1000.pdf  used on input line 10.
@@ -756,17 +760,17 @@ Overfull \hbox (39.77757pt too wide) in paragraph at lines 7--12
 [][]
  []
 
-<cauchy_hist_10.pdf, id=139, 462.52798pt x 346.89601pt>
+<cauchy_hist_10.pdf, id=180, 462.52798pt x 346.89601pt>
 File: cauchy_hist_10.pdf Graphic file (type pdf)
 <use cauchy_hist_10.pdf>
 Package pdftex.def Info: cauchy_hist_10.pdf  used on input line 17.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<cauchy_hist_50.pdf, id=140, 462.52798pt x 346.89601pt>
+<cauchy_hist_50.pdf, id=181, 462.52798pt x 346.89601pt>
 File: cauchy_hist_50.pdf Graphic file (type pdf)
 <use cauchy_hist_50.pdf>
 Package pdftex.def Info: cauchy_hist_50.pdf  used on input line 18.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<cauchy_hist_1000.pdf, id=141, 462.52798pt x 346.89601pt>
+<cauchy_hist_1000.pdf, id=182, 462.52798pt x 346.89601pt>
 File: cauchy_hist_1000.pdf Graphic file (type pdf)
 <use cauchy_hist_1000.pdf>
 Package pdftex.def Info: cauchy_hist_1000.pdf  used on input line 19.
@@ -776,17 +780,17 @@ Overfull \hbox (39.77757pt too wide) in paragraph at lines 16--21
 [][]
  []
 
-<laplace_hist_10.pdf, id=142, 462.52798pt x 346.89601pt>
+<laplace_hist_10.pdf, id=183, 462.52798pt x 346.89601pt>
 File: laplace_hist_10.pdf Graphic file (type pdf)
 <use laplace_hist_10.pdf>
 Package pdftex.def Info: laplace_hist_10.pdf  used on input line 26.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<laplace_hist_50.pdf, id=143, 462.52798pt x 346.89601pt>
+<laplace_hist_50.pdf, id=184, 462.52798pt x 346.89601pt>
 File: laplace_hist_50.pdf Graphic file (type pdf)
 <use laplace_hist_50.pdf>
 Package pdftex.def Info: laplace_hist_50.pdf  used on input line 27.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<laplace_hist_1000.pdf, id=144, 462.52798pt x 346.89601pt>
+<laplace_hist_1000.pdf, id=185, 462.52798pt x 346.89601pt>
 File: laplace_hist_1000.pdf Graphic file (type pdf)
 <use laplace_hist_1000.pdf>
 Package pdftex.def Info: laplace_hist_1000.pdf  used on input line 28.
@@ -796,17 +800,17 @@ Overfull \hbox (39.77757pt too wide) in paragraph at lines 25--30
 [][]
  []
 
-<poisson_hist_10.pdf, id=145, 462.52798pt x 346.89601pt>
+<poisson_hist_10.pdf, id=186, 462.52798pt x 346.89601pt>
 File: poisson_hist_10.pdf Graphic file (type pdf)
 <use poisson_hist_10.pdf>
 Package pdftex.def Info: poisson_hist_10.pdf  used on input line 35.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<poisson_hist_50.pdf, id=146, 462.52798pt x 346.89601pt>
+<poisson_hist_50.pdf, id=187, 462.52798pt x 346.89601pt>
 File: poisson_hist_50.pdf Graphic file (type pdf)
 <use poisson_hist_50.pdf>
 Package pdftex.def Info: poisson_hist_50.pdf  used on input line 36.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<poisson_hist_1000.pdf, id=147, 462.52798pt x 346.89601pt>
+<poisson_hist_1000.pdf, id=188, 462.52798pt x 346.89601pt>
 File: poisson_hist_1000.pdf Graphic file (type pdf)
 <use poisson_hist_1000.pdf>
 Package pdftex.def Info: poisson_hist_1000.pdf  used on input line 37.
@@ -816,7 +820,7 @@ Overfull \hbox (39.77757pt too wide) in paragraph at lines 34--39
 [][]
  []
 
-[6pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -834,17 +838,17 @@ l.41
       <./normal_hist_10.pdf> <./normal_hist_50.pdf> <./normal_hist_1000.pdf> <.
 /cauchy_hist_10.pdf> <./cauchy_hist_50.pdf> <./cauchy_hist_1000.pdf> <./laplace
 _hist_10.pdf> <./laplace_hist_50.pdf> <./laplace_hist_1000.pdf>]
-<uniform_hist_10.pdf, id=443, 462.52798pt x 346.89601pt>
+<uniform_hist_10.pdf, id=483, 462.52798pt x 346.89601pt>
 File: uniform_hist_10.pdf Graphic file (type pdf)
 <use uniform_hist_10.pdf>
 Package pdftex.def Info: uniform_hist_10.pdf  used on input line 45.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<uniform_hist_50.pdf, id=444, 462.52798pt x 346.89601pt>
+<uniform_hist_50.pdf, id=484, 462.52798pt x 346.89601pt>
 File: uniform_hist_50.pdf Graphic file (type pdf)
 <use uniform_hist_50.pdf>
 Package pdftex.def Info: uniform_hist_50.pdf  used on input line 46.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-<uniform_hist_1000.pdf, id=445, 462.52798pt x 346.89601pt>
+<uniform_hist_1000.pdf, id=485, 462.52798pt x 346.89601pt>
 File: uniform_hist_1000.pdf Graphic file (type pdf)
 <use uniform_hist_1000.pdf>
 Package pdftex.def Info: uniform_hist_1000.pdf  used on input line 47.
@@ -854,7 +858,7 @@ Overfull \hbox (39.77757pt too wide) in paragraph at lines 44--49
 [][]
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -870,75 +874,140 @@ l.111
                                                   \__shipout_drop_firstpage_...
 l.111 
        <./poisson_hist_10.pdf> <./poisson_hist_50.pdf> <./poisson_hist_1000.pdf
-> <./uniform_hist_10.pdf> <./uniform_hist_50.pdf> <./uniform_hist_1000.pdf>])
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
+> <./uniform_hist_10.pdf> <./uniform_hist_50.pdf> <./uniform_hist_1000.pdf>]
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.25 \newpage
-             pdfTeX warning (ext4): destination with the same identifier (name{
-table.3}) has been already used, duplicate ignored
+l.192 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.3
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.192 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.192 
+      ]
+<normal_boxplot.png, id=683, 462.528pt x 346.896pt>
+File: normal_boxplot.png Graphic file (type png)
+<use normal_boxplot.png>
+Package pdftex.def Info: normal_boxplot.png  used on input line 197.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+<cauchy_boxplot.png, id=685, 462.528pt x 346.896pt>
+File: cauchy_boxplot.png Graphic file (type png)
+<use cauchy_boxplot.png>
+Package pdftex.def Info: cauchy_boxplot.png  used on input line 203.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{table.5})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.206 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.206 
+       <./normal_boxplot.png>]
+<laplace_boxplot.png, id=693, 462.528pt x 346.896pt>
+File: laplace_boxplot.png Graphic file (type png)
+<use laplace_boxplot.png>
+Package pdftex.def Info: laplace_boxplot.png  used on input line 209.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+<poisson_boxplot.png, id=694, 462.528pt x 346.896pt>
+File: poisson_boxplot.png Graphic file (type png)
+<use poisson_boxplot.png>
+Package pdftex.def Info: poisson_boxplot.png  used on input line 215.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.218 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.218 
+       <./cauchy_boxplot.png> <./laplace_boxplot.png>]
+<uniform_boxplot.png, id=703, 462.528pt x 346.896pt>
+File: uniform_boxplot.png Graphic file (type png)
+<use uniform_boxplot.png>
+Package pdftex.def Info: uniform_boxplot.png  used on input line 221.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.257 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.257 
+       <./poisson_boxplot.png> <./uniform_boxplot.png>]) [13pdfTeX warning (ext
+4): destination with the same identifier (name{table.6}) has been already used,
+ duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.25 \newpage
              pdfTeX warning (ext4): destination with the same identifier (name{
-table.4}) has been already used, duplicate ignored
+table.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.25 \newpage
-             ] [9pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.25 \newpage
-             ] (discussion.tex) [10] (report1.lof)
+             ] (discussion.tex) [14] (report1.lof)
 \tf@lof=\write5
 \openout5 = `report1.lof'.
 
- [11] (report1.lot)
+ [15] (report1.lot)
 \tf@lot=\write6
 \openout6 = `report1.lot'.
 
- [12]
+ [16]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
 43.
 
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-[13] (report1.aux)
+[17] (report1.aux)
 Package rerunfilecheck Info: File `report1.out' has not changed.
-(rerunfilecheck)             Checksum: DA107C1FE7A940FEB42F1F3AAD5853AC;2988.
+(rerunfilecheck)             Checksum: F781FB4E2DF95D14FB4A7A233A9FF864;4298.
  ) 
 Here is how much of TeX's memory you used:
- 14923 strings out of 478864
- 212517 string characters out of 2849134
- 746355 words of memory out of 3000000
- 32512 multiletter control sequences out of 15000+600000
+ 14996 strings out of 478864
+ 213798 string characters out of 2849134
+ 745355 words of memory out of 3000000
+ 32558 multiletter control sequences out of 15000+600000
  411778 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,13n,69p,1092b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt100
-0.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx
-1200.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\tcrm1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\labx1440.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
-dpi600\larm1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\labx1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
-h-t2a/dpi600\lacc1000.pk><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Acer/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Acer/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/A
-cer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
-sers/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb>
-Output written on report1.pdf (14 pages, 395375 bytes).
+0.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm
+0700.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+abx1200.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\labx1440.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/l
+h-t2a/dpi600\labx1000.pk> <C:\Users\Acer\AppData\Local\MiKTeX\fonts/pk/ljfour/l
+h/lh-t2a/dpi600\lacc1000.pk><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Acer/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Acer/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Acer/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Acer
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/User
+s/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on report1.pdf (18 pages, 450638 bytes).
 PDF statistics:
- 1021 PDF objects out of 1200 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1115 PDF objects out of 1200 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
