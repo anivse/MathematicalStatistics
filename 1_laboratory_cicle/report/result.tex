@@ -52,7 +52,11 @@
 
 \subsection{Характеристики положения и рассеяния}
 
+Округление проводилось следующим образом: 
 
+В оценке $x = E \pm D$ вариации подлежит первая цифра после точки. В данном случае $x = 0.0 \pm 0.1k$, \\
+k зависит от доверительной вероятности и вида распределения (рассматривается в дальнейшем цикле лабораторных работ).\\
+Округление сделано для $k=1$
  
 
 \begin{table}[H]
@@ -224,6 +228,12 @@
 
 \subsection{Доля выбросов}
 
+Округление осуществлялось следующим образом: \\
+Выборка случайна, поэтому в качестве оценки рассеяния можно взять дисперсию пуассоновского потока: $D_{n} \approx \sqrt{n}$ \\
+Доля $p_n = \dfrac{D_n}{n}=\dfrac{1}{\sqrt{n}} $ \\
+Для n=20: $p_n = \dfrac{1}{\sqrt{20}}$ -- примерно 0.2 или 20 \% \\
+Для n=100 $p_n = 0.1$ или 10 \% \\
+Исходя из этого можно решить, сколько знаков оставлять в доле выбросов\\
 \begin{table}[H]
 	\begin{center}
 		\begin{tabular}{|c|c|}
@@ -255,6 +265,9 @@
     \caption{Доля выбросов}
 \end{table}
 
+
+
+
 \subsection{Теоретическая вероятность выбросов}
 
 \begin{table}[H]
@@ -279,6 +292,8 @@
 \end{table}
 
 \subsection{Эмпирическая функция распределения}
+
+Графики теоретической функции распределения синего цвета, графики эмперической функции распределения -- черного. \\
 
 \begin{figure}[H]
 	\begin{tabular}{ccc}
@@ -325,4 +340,149 @@
 	\end{tabular}
 	\caption{Функция распределения вероятности равномерного р-я}
 \end{figure}
+
+\subsection{Ядерные оценки плотности распределения}
+
+Графики плотности распределения красного цвета, графики оценок -- черного. \\
+$adjust = 0.5$ соответствует $h = \dfrac{h_{n}}{2}$ \\
+$adjust = 1$ соответствует $h = h_{n}$ \\
+$adjust = 2$ соответствует $h = 2h_{n}$ \\
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{normal_n20_adjust0.5.png}
+		\includegraphics[scale=0.33]{normal_n20_adjust1.png}
+		\includegraphics[scale=0.33]{normal_n20_adjust2.png}
+	\end{tabular}
+	\caption{Нормальное распределение, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{normal_n60_adjust0.5.png}
+		\includegraphics[scale=0.33]{normal_n60_adjust1.png}
+		\includegraphics[scale=0.33]{normal_n60_adjust2.png}
+	\end{tabular}
+	\caption{Нормальное распределение, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{normal_n100_adjust0.5.png}
+		\includegraphics[scale=0.33]{normal_n100_adjust1.png}
+		\includegraphics[scale=0.33]{normal_n100_adjust2.png}
+	\end{tabular}
+	\caption{Нормальное распределение, n=100}
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{cauchy_n20_adjust0.5.png}
+		\includegraphics[scale=0.33]{cauchy_n20_adjust1.png}
+		\includegraphics[scale=0.33]{cauchy_n20_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Коши, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{cauchy_n60_adjust0.5.png}
+		\includegraphics[scale=0.33]{cauchy_n60_adjust1.png}
+		\includegraphics[scale=0.33]{cauchy_n60_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Коши, n=60}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{cauchy_n100_adjust0.5.png}
+		\includegraphics[scale=0.33]{cauchy_n100_adjust1.png}
+		\includegraphics[scale=0.33]{cauchy_n100_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Коши, n=100}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{laplace_n20_adjust0.5.png}
+		\includegraphics[scale=0.33]{laplace_n20_adjust1.png}
+		\includegraphics[scale=0.33]{laplace_n20_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Лапласа, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{laplace_n60_adjust0.5.png} 
+		\includegraphics[scale=0.33]{laplace_n60_adjust1.png}
+		\includegraphics[scale=0.33]{laplace_n60_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Лапласа, n=60}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{laplace_n100_adjust0.5.png}
+		\includegraphics[scale=0.33]{laplace_n100_adjust1.png}
+		\includegraphics[scale=0.33]{laplace_n100_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Лапласа, n=100}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{poisson_n20_adjust0.5.png}
+		\includegraphics[scale=0.33]{poisson_n20_adjust1.png}
+		\includegraphics[scale=0.33]{poisson_n20_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Пуассона, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{poisson_n60_adjust0.5.png}
+		\includegraphics[scale=0.33]{poisson_n60_adjust1.png}
+		\includegraphics[scale=0.33]{poisson_n60_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Пуассона, n=60}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{poisson_n100_adjust0.5.png}
+		\includegraphics[scale=0.33]{poisson_n100_adjust1.png}
+		\includegraphics[scale=0.33]{poisson_n100_adjust2.png}
+	\end{tabular}
+	\caption{Распределение Пуассона, n=100}
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{uniform_n20_adjust0.5.png}
+		\includegraphics[scale=0.33]{uniform_n20_adjust1.png}
+		\includegraphics[scale=0.33]{uniform_n20_adjust2.png}
+	\end{tabular}
+	\caption{Равномерное распределение, n=20}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{uniform_n60_adjust0.5.png}
+		\includegraphics[scale=0.33]{uniform_n60_adjust1.png}
+		\includegraphics[scale=0.33]{uniform_n60_adjust2.png}
+	\end{tabular}
+	\caption{Равномерное распределение, n=60}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{ccc}
+		\includegraphics[scale=0.33]{uniform_n100_adjust0.5.png}
+		\includegraphics[scale=0.33]{uniform_n100_adjust1.png}
+		\includegraphics[scale=0.33]{uniform_n100_adjust2.png}
+	\end{tabular}
+	\caption{Равномерное распределение, n=100}
+\end{figure}
+
 
