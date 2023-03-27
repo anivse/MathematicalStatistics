@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.18)  25 MAR 2023 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.18)  28 MAR 2023 00:09
 entering extended mode
 **./report1.tex
 (report1.tex
@@ -689,14 +689,14 @@ LaTeX Info: Redefining \nameref on input line 7.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 436.79155pt, 92.14519pt)
+* h-part:(L,W,R)=(28.45274pt, 493.69707pt, 92.14519pt)
 * v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=436.79155pt
+* \textwidth=493.69707pt
 * \textheight=556.47656pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-13.87262pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -748,29 +748,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-
-Overfull \hbox (11.78854pt too wide) in paragraph at lines 161--162
-\T2A/cmr/m/n/10 Статистическим ря-дом на-зы-ва-ет-ся по-сле-до-ва-тель-ность ра
-з-лич-ных эле-мен-тов вы-бор-ки $\OML/cmm/m/it/10 z[]; z[];  ::: ; z[]$\T2A/cmr
-/m/n/10 ,
- []
-
 [7pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.182 \begin{equation}
-                      ] [8pdfTeX warning (ext4): destination with the same iden
-tifier (name{table.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.237 \end{equation}
-                    ]
+                      ]
+Overfull \hbox (4.15959pt too wide) in paragraph at lines 233--234
+[]\T2A/cmr/m/n/10 Здесь функ-ция $\OML/cmm/m/it/10 K\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 u\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 , на-зы-ва-е-мая ядер-ной (яд-ром), н
+епре-рыв-на и яв-ля-ет-ся плот-но-стью ве-ро-ят-но-сти, $\OML/cmm/m/it/10 x[]; 
+ ::: ; x[]$
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
-
+[8pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.240 
+      ]
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
@@ -789,13 +790,8 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 5.
 (C:\Users\Acer\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (9.82494pt too wide) in paragraph at lines 5--6
-[]\T2A/cmr/m/n/10 Ссылка на ре-по-зи-то-рий с ис-ход-ным ко-дом: [][]$\T2A/cmtt
-/m/n/10 https : / / github . com / anivse / MathematicalStatistics$[][] 
- []
-
-) [10] (result.tex
+))
+[10] (result.tex
 <normal_hist_10.pdf, id=368, 462.52798pt x 346.89601pt>
 File: normal_hist_10.pdf Graphic file (type pdf)
 <use normal_hist_10.pdf>
@@ -811,11 +807,6 @@ File: normal_hist_1000.pdf Graphic file (type pdf)
 <use normal_hist_1000.pdf>
 Package pdftex.def Info: normal_hist_1000.pdf  used on input line 10.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-
-Overfull \hbox (39.77757pt too wide) in paragraph at lines 7--12
-[][]
- []
-
 <cauchy_hist_10.pdf, id=371, 462.52798pt x 346.89601pt>
 File: cauchy_hist_10.pdf Graphic file (type pdf)
 <use cauchy_hist_10.pdf>
@@ -831,11 +822,6 @@ File: cauchy_hist_1000.pdf Graphic file (type pdf)
 <use cauchy_hist_1000.pdf>
 Package pdftex.def Info: cauchy_hist_1000.pdf  used on input line 19.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-
-Overfull \hbox (39.77757pt too wide) in paragraph at lines 16--21
-[][]
- []
-
 <laplace_hist_10.pdf, id=374, 462.52798pt x 346.89601pt>
 File: laplace_hist_10.pdf Graphic file (type pdf)
 <use laplace_hist_10.pdf>
@@ -851,11 +837,6 @@ File: laplace_hist_1000.pdf Graphic file (type pdf)
 <use laplace_hist_1000.pdf>
 Package pdftex.def Info: laplace_hist_1000.pdf  used on input line 28.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-
-Overfull \hbox (39.77757pt too wide) in paragraph at lines 25--30
-[][]
- []
-
 <poisson_hist_10.pdf, id=377, 462.52798pt x 346.89601pt>
 File: poisson_hist_10.pdf Graphic file (type pdf)
 <use poisson_hist_10.pdf>
@@ -871,13 +852,8 @@ File: poisson_hist_1000.pdf Graphic file (type pdf)
 <use poisson_hist_1000.pdf>
 Package pdftex.def Info: poisson_hist_1000.pdf  used on input line 37.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
-
-Overfull \hbox (39.77757pt too wide) in paragraph at lines 34--39
-[][]
- []
-
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.41 
@@ -910,375 +886,346 @@ File: uniform_hist_1000.pdf Graphic file (type pdf)
 Package pdftex.def Info: uniform_hist_1000.pdf  used on input line 47.
 (pdftex.def)             Requested size: 152.63469pt x 114.47603pt.
 
-Overfull \hbox (39.77757pt too wide) in paragraph at lines 44--49
-[][]
+Overfull \hbox (35.49742pt too wide) in paragraph at lines 64--97
+ [] 
  []
 
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-}) has been already used, duplicate ignored
+l.100 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 
-      <./poisson_hist_10.pdf> <./poisson_hist_50.pdf> <./poisson_hist_1000.pdf>
- <./uniform_hist_10.pdf> <./uniform_hist_50.pdf> <./uniform_hist_1000.pdf>]
+l.100 
+       <./poisson_hist_10.pdf> <./poisson_hist_50.pdf> <./poisson_hist_1000.pdf
+> <./uniform_hist_10.pdf> <./uniform_hist_50.pdf> <./uniform_hist_1000.pdf>]
+Overfull \hbox (85.45744pt too wide) in paragraph at lines 103--136
+ [] 
+ []
+
+
+Overfull \hbox (36.44164pt too wide) in paragraph at lines 142--175
+ [] 
+ []
+
 [13pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
+l.178 
       pdfTeX warning (ext4): destination with the same identifier (name{table.4
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+l.178 
+      ]
+Overfull \hbox (49.04967pt too wide) in paragraph at lines 181--214
+ [] 
+ []
+
+
+Overfull \hbox (39.10765pt too wide) in paragraph at lines 220--253
+ [] 
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.256 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.6
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.169 
+l.256 
       ]
-<normal_boxplot.png, id=865, 462.528pt x 346.896pt>
+<normal_boxplot.png, id=869, 462.528pt x 346.896pt>
 File: normal_boxplot.png Graphic file (type png)
 <use normal_boxplot.png>
-Package pdftex.def Info: normal_boxplot.png  used on input line 201.
+Package pdftex.def Info: normal_boxplot.png  used on input line 261.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{table.6})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.204 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.7
-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.204 
-      ]
 <cauchy_boxplot.png, id=871, 462.528pt x 346.896pt>
 File: cauchy_boxplot.png Graphic file (type png)
 <use cauchy_boxplot.png>
-Package pdftex.def Info: cauchy_boxplot.png  used on input line 207.
+Package pdftex.def Info: cauchy_boxplot.png  used on input line 267.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
-<laplace_boxplot.png, id=872, 462.528pt x 346.896pt>
+ [15pdfTeX warning (ext4): destination with the same identifier (name{table.7})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.270 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.270 
+       <./normal_boxplot.png>]
+<laplace_boxplot.png, id=877, 462.528pt x 346.896pt>
 File: laplace_boxplot.png Graphic file (type png)
 <use laplace_boxplot.png>
-Package pdftex.def Info: laplace_boxplot.png  used on input line 213.
+Package pdftex.def Info: laplace_boxplot.png  used on input line 273.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.216 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.216 
-       <./normal_boxplot.png> <./cauchy_boxplot.png>]
-<poisson_boxplot.png, id=879, 462.528pt x 346.896pt>
+<poisson_boxplot.png, id=878, 462.528pt x 346.896pt>
 File: poisson_boxplot.png Graphic file (type png)
 <use poisson_boxplot.png>
-Package pdftex.def Info: poisson_boxplot.png  used on input line 219.
+Package pdftex.def Info: poisson_boxplot.png  used on input line 279.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
-<uniform_boxplot.png, id=880, 462.528pt x 346.896pt>
-File: uniform_boxplot.png Graphic file (type png)
-<use uniform_boxplot.png>
-Package pdftex.def Info: uniform_boxplot.png  used on input line 225.
-(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.228 
+l.282 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-9}) has been already used, duplicate ignored
+8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.228 
-       <./laplace_boxplot.png> <./poisson_boxplot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 231--266
+l.282 
+       <./cauchy_boxplot.png> <./laplace_boxplot.png>]
+<uniform_boxplot.png, id=885, 462.528pt x 346.896pt>
+File: uniform_boxplot.png Graphic file (type png)
+<use uniform_boxplot.png>
+Package pdftex.def Info: uniform_boxplot.png  used on input line 285.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--326
 
  []
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
-) has been already used, duplicate ignored
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.267 
-       <./uniform_boxplot.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+l.326 \end{table}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.326 \end{table}
+                  <./poisson_boxplot.png> <./uniform_boxplot.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 <normal_F20.png, id=892, 462.528pt x 346.896pt>
 File: normal_F20.png Graphic file (type png)
 <use normal_F20.png>
-Package pdftex.def Info: normal_F20.png  used on input line 300.
+Package pdftex.def Info: normal_F20.png  used on input line 360.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <normal_F60.png, id=893, 462.528pt x 346.896pt>
 File: normal_F60.png Graphic file (type png)
 <use normal_F60.png>
-Package pdftex.def Info: normal_F60.png  used on input line 301.
+Package pdftex.def Info: normal_F60.png  used on input line 361.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <normal_F100.png, id=894, 462.528pt x 346.896pt>
 File: normal_F100.png Graphic file (type png)
 <use normal_F100.png>
-Package pdftex.def Info: normal_F100.png  used on input line 302.
+Package pdftex.def Info: normal_F100.png  used on input line 362.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 299--304
-[][]
- []
-
-<cauchy_F20.png, id=895, 462.528pt x 346.896pt>
-File: cauchy_F20.png Graphic file (type png)
-<use cauchy_F20.png>
-Package pdftex.def Info: cauchy_F20.png  used on input line 309.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<cauchy_F60.png, id=896, 462.528pt x 346.896pt>
-File: cauchy_F60.png Graphic file (type png)
-<use cauchy_F60.png>
-Package pdftex.def Info: cauchy_F60.png  used on input line 310.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<cauchy_F100.png, id=897, 462.528pt x 346.896pt>
-File: cauchy_F100.png Graphic file (type png)
-<use cauchy_F100.png>
-Package pdftex.def Info: cauchy_F100.png  used on input line 311.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 308--313
-[][]
- []
-
 [18pdfTeX warning (ext4): destination with the same identifier (name{table.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.315 
+l.366 
       pdfTeX warning (ext4): destination with the same identifier (name{table.9
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.315 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.315 
-       <./normal_F20.png> <./normal_F60.png> <./normal_F100.png>]
-<laplace_F20.png, id=906, 462.528pt x 346.896pt>
+l.366 
+      ]
+<cauchy_F20.png, id=900, 462.528pt x 346.896pt>
+File: cauchy_F20.png Graphic file (type png)
+<use cauchy_F20.png>
+Package pdftex.def Info: cauchy_F20.png  used on input line 369.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+<cauchy_F60.png, id=901, 462.528pt x 346.896pt>
+File: cauchy_F60.png Graphic file (type png)
+<use cauchy_F60.png>
+Package pdftex.def Info: cauchy_F60.png  used on input line 370.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+<cauchy_F100.png, id=902, 462.528pt x 346.896pt>
+File: cauchy_F100.png Graphic file (type png)
+<use cauchy_F100.png>
+Package pdftex.def Info: cauchy_F100.png  used on input line 371.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+<laplace_F20.png, id=903, 462.528pt x 346.896pt>
 File: laplace_F20.png Graphic file (type png)
 <use laplace_F20.png>
-Package pdftex.def Info: laplace_F20.png  used on input line 318.
+Package pdftex.def Info: laplace_F20.png  used on input line 378.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<laplace_F60.png, id=907, 462.528pt x 346.896pt>
+<laplace_F60.png, id=904, 462.528pt x 346.896pt>
 File: laplace_F60.png Graphic file (type png)
 <use laplace_F60.png>
-Package pdftex.def Info: laplace_F60.png  used on input line 319.
+Package pdftex.def Info: laplace_F60.png  used on input line 379.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<laplace_F100.png, id=908, 462.528pt x 346.896pt>
+<laplace_F100.png, id=905, 462.528pt x 346.896pt>
 File: laplace_F100.png Graphic file (type png)
 <use laplace_F100.png>
-Package pdftex.def Info: laplace_F100.png  used on input line 320.
+Package pdftex.def Info: laplace_F100.png  used on input line 380.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 317--322
-[][]
- []
-
-<poisson_F20.png, id=909, 462.528pt x 346.896pt>
+<poisson_F20.png, id=906, 462.528pt x 346.896pt>
 File: poisson_F20.png Graphic file (type png)
 <use poisson_F20.png>
-Package pdftex.def Info: poisson_F20.png  used on input line 327.
+Package pdftex.def Info: poisson_F20.png  used on input line 387.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<poisson_F60.png, id=910, 462.528pt x 346.896pt>
+<poisson_F60.png, id=907, 462.528pt x 346.896pt>
 File: poisson_F60.png Graphic file (type png)
 <use poisson_F60.png>
-Package pdftex.def Info: poisson_F60.png  used on input line 328.
+Package pdftex.def Info: poisson_F60.png  used on input line 388.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<poisson_F100.png, id=911, 462.528pt x 346.896pt>
+<poisson_F100.png, id=908, 462.528pt x 346.896pt>
 File: poisson_F100.png Graphic file (type png)
 <use poisson_F100.png>
-Package pdftex.def Info: poisson_F100.png  used on input line 329.
+Package pdftex.def Info: poisson_F100.png  used on input line 389.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 326--331
-[][]
- []
-
-<uniform_F20.png, id=912, 462.528pt x 346.896pt>
-File: uniform_F20.png Graphic file (type png)
-<use uniform_F20.png>
-Package pdftex.def Info: uniform_F20.png  used on input line 337.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<uniform_F60.png, id=913, 462.528pt x 346.896pt>
-File: uniform_F60.png Graphic file (type png)
-<use uniform_F60.png>
-Package pdftex.def Info: uniform_F60.png  used on input line 338.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<uniform_F100.png, id=914, 462.528pt x 346.896pt>
-File: uniform_F100.png Graphic file (type png)
-<use uniform_F100.png>
-Package pdftex.def Info: uniform_F100.png  used on input line 339.
-(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 336--341
-[][]
- []
-
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
-) has been already used, duplicate ignored
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.343 
+l.393 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.393 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.343 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.343 
-       <./cauchy_F20.png> <./cauchy_F60.png> <./cauchy_F100.png> <./laplace_F20
-.png> <./laplace_F60.png> <./laplace_F100.png> <./poisson_F20.png> <./poisson_F
-60.png> <./poisson_F100.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 346--350
+l.393 
+       <./normal_F20.png> <./normal_F60.png> <./normal_F100.png> <./cauchy_F20.
+png> <./cauchy_F60.png> <./cauchy_F100.png> <./laplace_F20.png> <./laplace_F60.
+png> <./laplace_F100.png>]
+<uniform_F20.png, id=922, 462.528pt x 346.896pt>
+File: uniform_F20.png Graphic file (type png)
+<use uniform_F20.png>
+Package pdftex.def Info: uniform_F20.png  used on input line 397.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+<uniform_F60.png, id=923, 462.528pt x 346.896pt>
+File: uniform_F60.png Graphic file (type png)
+<use uniform_F60.png>
+Package pdftex.def Info: uniform_F60.png  used on input line 398.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+<uniform_F100.png, id=924, 462.528pt x 346.896pt>
+File: uniform_F100.png Graphic file (type png)
+<use uniform_F100.png>
+Package pdftex.def Info: uniform_F100.png  used on input line 399.
+(pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
 
  []
 
-<normal_n20_adjust0.5.png, id=928, 462.528pt x 346.896pt>
+<normal_n20_adjust0.5.png, id=925, 462.528pt x 346.896pt>
 File: normal_n20_adjust0.5.png Graphic file (type png)
 <use normal_n20_adjust0.5.png>
-Package pdftex.def Info: normal_n20_adjust0.5.png  used on input line 353.
+Package pdftex.def Info: normal_n20_adjust0.5.png  used on input line 413.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<normal_n20_adjust1.png, id=929, 462.528pt x 346.896pt>
+<normal_n20_adjust1.png, id=926, 462.528pt x 346.896pt>
 File: normal_n20_adjust1.png Graphic file (type png)
 <use normal_n20_adjust1.png>
-Package pdftex.def Info: normal_n20_adjust1.png  used on input line 354.
+Package pdftex.def Info: normal_n20_adjust1.png  used on input line 414.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<normal_n20_adjust2.png, id=930, 462.528pt x 346.896pt>
+<normal_n20_adjust2.png, id=927, 462.528pt x 346.896pt>
 File: normal_n20_adjust2.png Graphic file (type png)
 <use normal_n20_adjust2.png>
-Package pdftex.def Info: normal_n20_adjust2.png  used on input line 355.
+Package pdftex.def Info: normal_n20_adjust2.png  used on input line 415.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 352--357
-[][]
- []
-
-<normal_n60_adjust0.5.png, id=931, 462.528pt x 346.896pt>
+<normal_n60_adjust0.5.png, id=928, 462.528pt x 346.896pt>
 File: normal_n60_adjust0.5.png Graphic file (type png)
 <use normal_n60_adjust0.5.png>
-Package pdftex.def Info: normal_n60_adjust0.5.png  used on input line 362.
+Package pdftex.def Info: normal_n60_adjust0.5.png  used on input line 422.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<normal_n60_adjust1.png, id=932, 462.528pt x 346.896pt>
+<normal_n60_adjust1.png, id=929, 462.528pt x 346.896pt>
 File: normal_n60_adjust1.png Graphic file (type png)
 <use normal_n60_adjust1.png>
-Package pdftex.def Info: normal_n60_adjust1.png  used on input line 363.
+Package pdftex.def Info: normal_n60_adjust1.png  used on input line 423.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-<normal_n60_adjust2.png, id=933, 462.528pt x 346.896pt>
+<normal_n60_adjust2.png, id=930, 462.528pt x 346.896pt>
 File: normal_n60_adjust2.png Graphic file (type png)
 <use normal_n60_adjust2.png>
-Package pdftex.def Info: normal_n60_adjust2.png  used on input line 364.
+Package pdftex.def Info: normal_n60_adjust2.png  used on input line 424.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 361--366
-[][]
- []
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.368 
+l.428 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.428 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.368 
-       <./uniform_F20.png> <./uniform_F60.png> <./uniform_F100.png> <./normal_n
-20_adjust0.5.png> <./normal_n20_adjust1.png> <./normal_n20_adjust2.png>]
+l.428 
+       <./poisson_F20.png> <./poisson_F60.png> <./poisson_F100.png> <./uniform_
+F20.png> <./uniform_F60.png> <./uniform_F100.png> <./normal_n20_adjust0.5.png> 
+<./normal_n20_adjust1.png> <./normal_n20_adjust2.png>]
 <normal_n100_adjust0.5.png, id=944, 462.528pt x 346.896pt>
 File: normal_n100_adjust0.5.png Graphic file (type png)
 <use normal_n100_adjust0.5.png>
-Package pdftex.def Info: normal_n100_adjust0.5.png  used on input line 371.
+Package pdftex.def Info: normal_n100_adjust0.5.png  used on input line 431.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <normal_n100_adjust1.png, id=945, 462.528pt x 346.896pt>
 File: normal_n100_adjust1.png Graphic file (type png)
 <use normal_n100_adjust1.png>
-Package pdftex.def Info: normal_n100_adjust1.png  used on input line 372.
+Package pdftex.def Info: normal_n100_adjust1.png  used on input line 432.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <normal_n100_adjust2.png, id=946, 462.528pt x 346.896pt>
 File: normal_n100_adjust2.png Graphic file (type png)
 <use normal_n100_adjust2.png>
-Package pdftex.def Info: normal_n100_adjust2.png  used on input line 373.
+Package pdftex.def Info: normal_n100_adjust2.png  used on input line 433.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 370--375
-[][]
- []
-
 <cauchy_n20_adjust0.5.png, id=947, 462.528pt x 346.896pt>
 File: cauchy_n20_adjust0.5.png Graphic file (type png)
 <use cauchy_n20_adjust0.5.png>
-Package pdftex.def Info: cauchy_n20_adjust0.5.png  used on input line 381.
+Package pdftex.def Info: cauchy_n20_adjust0.5.png  used on input line 441.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n20_adjust1.png, id=948, 462.528pt x 346.896pt>
 File: cauchy_n20_adjust1.png Graphic file (type png)
 <use cauchy_n20_adjust1.png>
-Package pdftex.def Info: cauchy_n20_adjust1.png  used on input line 382.
+Package pdftex.def Info: cauchy_n20_adjust1.png  used on input line 442.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n20_adjust2.png, id=949, 462.528pt x 346.896pt>
 File: cauchy_n20_adjust2.png Graphic file (type png)
 <use cauchy_n20_adjust2.png>
-Package pdftex.def Info: cauchy_n20_adjust2.png  used on input line 383.
+Package pdftex.def Info: cauchy_n20_adjust2.png  used on input line 443.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 380--385
-[][]
- []
-
 <cauchy_n60_adjust0.5.png, id=950, 462.528pt x 346.896pt>
 File: cauchy_n60_adjust0.5.png Graphic file (type png)
 <use cauchy_n60_adjust0.5.png>
-Package pdftex.def Info: cauchy_n60_adjust0.5.png  used on input line 390.
+Package pdftex.def Info: cauchy_n60_adjust0.5.png  used on input line 450.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n60_adjust1.png, id=951, 462.528pt x 346.896pt>
 File: cauchy_n60_adjust1.png Graphic file (type png)
 <use cauchy_n60_adjust1.png>
-Package pdftex.def Info: cauchy_n60_adjust1.png  used on input line 391.
+Package pdftex.def Info: cauchy_n60_adjust1.png  used on input line 451.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n60_adjust2.png, id=952, 462.528pt x 346.896pt>
 File: cauchy_n60_adjust2.png Graphic file (type png)
 <use cauchy_n60_adjust2.png>
-Package pdftex.def Info: cauchy_n60_adjust2.png  used on input line 392.
+Package pdftex.def Info: cauchy_n60_adjust2.png  used on input line 452.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 389--394
-[][]
- []
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
-) has been already used, duplicate ignored
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.396 
+l.456 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.396 
+l.456 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.396 
+l.456 
        <./normal_n60_adjust0.5.png> <./normal_n60_adjust1.png> <./normal_n60_ad
 just2.png> <./normal_n100_adjust0.5.png> <./normal_n100_adjust1.png> <./normal_
 n100_adjust2.png> <./cauchy_n20_adjust0.5.png> <./cauchy_n20_adjust1.png> <./ca
@@ -1286,78 +1233,63 @@ uchy_n20_adjust2.png>]
 <cauchy_n100_adjust0.5.png, id=966, 462.528pt x 346.896pt>
 File: cauchy_n100_adjust0.5.png Graphic file (type png)
 <use cauchy_n100_adjust0.5.png>
-Package pdftex.def Info: cauchy_n100_adjust0.5.png  used on input line 399.
+Package pdftex.def Info: cauchy_n100_adjust0.5.png  used on input line 459.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n100_adjust1.png, id=967, 462.528pt x 346.896pt>
 File: cauchy_n100_adjust1.png Graphic file (type png)
 <use cauchy_n100_adjust1.png>
-Package pdftex.def Info: cauchy_n100_adjust1.png  used on input line 400.
+Package pdftex.def Info: cauchy_n100_adjust1.png  used on input line 460.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <cauchy_n100_adjust2.png, id=968, 462.528pt x 346.896pt>
 File: cauchy_n100_adjust2.png Graphic file (type png)
 <use cauchy_n100_adjust2.png>
-Package pdftex.def Info: cauchy_n100_adjust2.png  used on input line 401.
+Package pdftex.def Info: cauchy_n100_adjust2.png  used on input line 461.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 398--403
-[][]
- []
-
 <laplace_n20_adjust0.5.png, id=969, 462.528pt x 346.896pt>
 File: laplace_n20_adjust0.5.png Graphic file (type png)
 <use laplace_n20_adjust0.5.png>
-Package pdftex.def Info: laplace_n20_adjust0.5.png  used on input line 408.
+Package pdftex.def Info: laplace_n20_adjust0.5.png  used on input line 468.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n20_adjust1.png, id=970, 462.528pt x 346.896pt>
 File: laplace_n20_adjust1.png Graphic file (type png)
 <use laplace_n20_adjust1.png>
-Package pdftex.def Info: laplace_n20_adjust1.png  used on input line 409.
+Package pdftex.def Info: laplace_n20_adjust1.png  used on input line 469.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n20_adjust2.png, id=971, 462.528pt x 346.896pt>
 File: laplace_n20_adjust2.png Graphic file (type png)
 <use laplace_n20_adjust2.png>
-Package pdftex.def Info: laplace_n20_adjust2.png  used on input line 410.
+Package pdftex.def Info: laplace_n20_adjust2.png  used on input line 470.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 407--412
-[][]
- []
-
 <laplace_n60_adjust0.5.png, id=972, 462.528pt x 346.896pt>
 File: laplace_n60_adjust0.5.png Graphic file (type png)
 <use laplace_n60_adjust0.5.png>
-Package pdftex.def Info: laplace_n60_adjust0.5.png  used on input line 417.
+Package pdftex.def Info: laplace_n60_adjust0.5.png  used on input line 477.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n60_adjust1.png, id=973, 462.528pt x 346.896pt>
 File: laplace_n60_adjust1.png Graphic file (type png)
 <use laplace_n60_adjust1.png>
-Package pdftex.def Info: laplace_n60_adjust1.png  used on input line 418.
+Package pdftex.def Info: laplace_n60_adjust1.png  used on input line 478.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n60_adjust2.png, id=974, 462.528pt x 346.896pt>
 File: laplace_n60_adjust2.png Graphic file (type png)
 <use laplace_n60_adjust2.png>
-Package pdftex.def Info: laplace_n60_adjust2.png  used on input line 419.
+Package pdftex.def Info: laplace_n60_adjust2.png  used on input line 479.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 416--421
-[][]
- []
-
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
-) has been already used, duplicate ignored
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.423 
+l.483 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.423 
+l.483 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.423 
+l.483 
        <./cauchy_n60_adjust0.5.png> <./cauchy_n60_adjust1.png> <./cauchy_n60_ad
 just2.png> <./cauchy_n100_adjust0.5.png> <./cauchy_n100_adjust1.png> <./cauchy_
 n100_adjust2.png> <./laplace_n20_adjust0.5.png> <./laplace_n20_adjust1.png> <./
@@ -1365,78 +1297,63 @@ laplace_n20_adjust2.png>]
 <laplace_n100_adjust0.5.png, id=988, 462.528pt x 346.896pt>
 File: laplace_n100_adjust0.5.png Graphic file (type png)
 <use laplace_n100_adjust0.5.png>
-Package pdftex.def Info: laplace_n100_adjust0.5.png  used on input line 426.
+Package pdftex.def Info: laplace_n100_adjust0.5.png  used on input line 486.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n100_adjust1.png, id=989, 462.528pt x 346.896pt>
 File: laplace_n100_adjust1.png Graphic file (type png)
 <use laplace_n100_adjust1.png>
-Package pdftex.def Info: laplace_n100_adjust1.png  used on input line 427.
+Package pdftex.def Info: laplace_n100_adjust1.png  used on input line 487.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <laplace_n100_adjust2.png, id=990, 462.528pt x 346.896pt>
 File: laplace_n100_adjust2.png Graphic file (type png)
 <use laplace_n100_adjust2.png>
-Package pdftex.def Info: laplace_n100_adjust2.png  used on input line 428.
+Package pdftex.def Info: laplace_n100_adjust2.png  used on input line 488.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 425--430
-[][]
- []
-
 <poisson_n20_adjust0.5.png, id=991, 462.528pt x 346.896pt>
 File: poisson_n20_adjust0.5.png Graphic file (type png)
 <use poisson_n20_adjust0.5.png>
-Package pdftex.def Info: poisson_n20_adjust0.5.png  used on input line 435.
+Package pdftex.def Info: poisson_n20_adjust0.5.png  used on input line 495.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n20_adjust1.png, id=992, 462.528pt x 346.896pt>
 File: poisson_n20_adjust1.png Graphic file (type png)
 <use poisson_n20_adjust1.png>
-Package pdftex.def Info: poisson_n20_adjust1.png  used on input line 436.
+Package pdftex.def Info: poisson_n20_adjust1.png  used on input line 496.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n20_adjust2.png, id=993, 462.528pt x 346.896pt>
 File: poisson_n20_adjust2.png Graphic file (type png)
 <use poisson_n20_adjust2.png>
-Package pdftex.def Info: poisson_n20_adjust2.png  used on input line 437.
+Package pdftex.def Info: poisson_n20_adjust2.png  used on input line 497.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 434--439
-[][]
- []
-
 <poisson_n60_adjust0.5.png, id=994, 462.528pt x 346.896pt>
 File: poisson_n60_adjust0.5.png Graphic file (type png)
 <use poisson_n60_adjust0.5.png>
-Package pdftex.def Info: poisson_n60_adjust0.5.png  used on input line 444.
+Package pdftex.def Info: poisson_n60_adjust0.5.png  used on input line 504.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n60_adjust1.png, id=995, 462.528pt x 346.896pt>
 File: poisson_n60_adjust1.png Graphic file (type png)
 <use poisson_n60_adjust1.png>
-Package pdftex.def Info: poisson_n60_adjust1.png  used on input line 445.
+Package pdftex.def Info: poisson_n60_adjust1.png  used on input line 505.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n60_adjust2.png, id=996, 462.528pt x 346.896pt>
 File: poisson_n60_adjust2.png Graphic file (type png)
 <use poisson_n60_adjust2.png>
-Package pdftex.def Info: poisson_n60_adjust2.png  used on input line 446.
+Package pdftex.def Info: poisson_n60_adjust2.png  used on input line 506.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 443--448
-[][]
- []
-
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.23}
-) has been already used, duplicate ignored
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.450 
+l.510 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 24}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.450 
+l.510 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 25}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.450 
+l.510 
        <./laplace_n60_adjust0.5.png> <./laplace_n60_adjust1.png> <./laplace_n60
 _adjust2.png> <./laplace_n100_adjust0.5.png> <./laplace_n100_adjust1.png> <./la
 place_n100_adjust2.png> <./poisson_n20_adjust0.5.png> <./poisson_n20_adjust1.pn
@@ -1444,78 +1361,63 @@ g> <./poisson_n20_adjust2.png>]
 <poisson_n100_adjust0.5.png, id=1010, 462.528pt x 346.896pt>
 File: poisson_n100_adjust0.5.png Graphic file (type png)
 <use poisson_n100_adjust0.5.png>
-Package pdftex.def Info: poisson_n100_adjust0.5.png  used on input line 453.
+Package pdftex.def Info: poisson_n100_adjust0.5.png  used on input line 513.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n100_adjust1.png, id=1011, 462.528pt x 346.896pt>
 File: poisson_n100_adjust1.png Graphic file (type png)
 <use poisson_n100_adjust1.png>
-Package pdftex.def Info: poisson_n100_adjust1.png  used on input line 454.
+Package pdftex.def Info: poisson_n100_adjust1.png  used on input line 514.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <poisson_n100_adjust2.png, id=1012, 462.528pt x 346.896pt>
 File: poisson_n100_adjust2.png Graphic file (type png)
 <use poisson_n100_adjust2.png>
-Package pdftex.def Info: poisson_n100_adjust2.png  used on input line 455.
+Package pdftex.def Info: poisson_n100_adjust2.png  used on input line 515.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 452--457
-[][]
- []
-
 <uniform_n20_adjust0.5.png, id=1013, 462.528pt x 346.896pt>
 File: uniform_n20_adjust0.5.png Graphic file (type png)
 <use uniform_n20_adjust0.5.png>
-Package pdftex.def Info: uniform_n20_adjust0.5.png  used on input line 463.
+Package pdftex.def Info: uniform_n20_adjust0.5.png  used on input line 523.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n20_adjust1.png, id=1014, 462.528pt x 346.896pt>
 File: uniform_n20_adjust1.png Graphic file (type png)
 <use uniform_n20_adjust1.png>
-Package pdftex.def Info: uniform_n20_adjust1.png  used on input line 464.
+Package pdftex.def Info: uniform_n20_adjust1.png  used on input line 524.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n20_adjust2.png, id=1015, 462.528pt x 346.896pt>
 File: uniform_n20_adjust2.png Graphic file (type png)
 <use uniform_n20_adjust2.png>
-Package pdftex.def Info: uniform_n20_adjust2.png  used on input line 465.
+Package pdftex.def Info: uniform_n20_adjust2.png  used on input line 525.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 462--467
-[][]
- []
-
 <uniform_n60_adjust0.5.png, id=1016, 462.528pt x 346.896pt>
 File: uniform_n60_adjust0.5.png Graphic file (type png)
 <use uniform_n60_adjust0.5.png>
-Package pdftex.def Info: uniform_n60_adjust0.5.png  used on input line 472.
+Package pdftex.def Info: uniform_n60_adjust0.5.png  used on input line 532.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n60_adjust1.png, id=1017, 462.528pt x 346.896pt>
 File: uniform_n60_adjust1.png Graphic file (type png)
 <use uniform_n60_adjust1.png>
-Package pdftex.def Info: uniform_n60_adjust1.png  used on input line 473.
+Package pdftex.def Info: uniform_n60_adjust1.png  used on input line 533.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n60_adjust2.png, id=1018, 462.528pt x 346.896pt>
 File: uniform_n60_adjust2.png Graphic file (type png)
 <use uniform_n60_adjust2.png>
-Package pdftex.def Info: uniform_n60_adjust2.png  used on input line 474.
+Package pdftex.def Info: uniform_n60_adjust2.png  used on input line 534.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 471--476
-[][]
- []
-
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.26}
-) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.26
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.478 
+l.538 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.478 
+l.538 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 28}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.478 
+l.538 
        <./poisson_n60_adjust0.5.png> <./poisson_n60_adjust1.png> <./poisson_n60
 _adjust2.png> <./poisson_n100_adjust0.5.png> <./poisson_n100_adjust1.png> <./po
 isson_n100_adjust2.png> <./uniform_n20_adjust0.5.png> <./uniform_n20_adjust1.pn
@@ -1523,23 +1425,18 @@ g> <./uniform_n20_adjust2.png>]
 <uniform_n100_adjust0.5.png, id=1033, 462.528pt x 346.896pt>
 File: uniform_n100_adjust0.5.png Graphic file (type png)
 <use uniform_n100_adjust0.5.png>
-Package pdftex.def Info: uniform_n100_adjust0.5.png  used on input line 481.
+Package pdftex.def Info: uniform_n100_adjust0.5.png  used on input line 541.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n100_adjust1.png, id=1034, 462.528pt x 346.896pt>
 File: uniform_n100_adjust1.png Graphic file (type png)
 <use uniform_n100_adjust1.png>
-Package pdftex.def Info: uniform_n100_adjust1.png  used on input line 482.
+Package pdftex.def Info: uniform_n100_adjust1.png  used on input line 542.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
 <uniform_n100_adjust2.png, id=1035, 462.528pt x 346.896pt>
 File: uniform_n100_adjust2.png Graphic file (type png)
 <use uniform_n100_adjust2.png>
-Package pdftex.def Info: uniform_n100_adjust2.png  used on input line 483.
+Package pdftex.def Info: uniform_n100_adjust2.png  used on input line 543.
 (pdftex.def)             Requested size: 152.6347pt x 114.47603pt.
-
-Overfull \hbox (39.77762pt too wide) in paragraph at lines 480--485
-[][]
- []
-
 ) [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1552,14 +1449,14 @@ figure.30}) has been already used, duplicate ignored
 l.31 \newpage
               <./uniform_n60_adjust0.5.png> <./uniform_n60_adjust1.png> <./unif
 orm_n60_adjust2.png> <./uniform_n100_adjust0.5.png> <./uniform_n100_adjust1.png
-> <./uniform_n100_adjust2.png>] (discussion.tex) [26] [27] [28] (report1.aux)
+> <./uniform_n100_adjust2.png>] (discussion.tex) [26] [27] (report1.aux)
 Package rerunfilecheck Info: File `report1.out' has not changed.
 (rerunfilecheck)             Checksum: D278F0EC53205B39818C1A43586B1EC1;8222.
  ) 
 Here is how much of TeX's memory you used:
- 15486 strings out of 478864
- 225534 string characters out of 2849134
- 745355 words of memory out of 3000000
+ 15485 strings out of 478864
+ 225527 string characters out of 2849134
+ 753355 words of memory out of 3000000
  32932 multiletter control sequences out of 15000+600000
  411778 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1583,9 +1480,9 @@ s/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
 :/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><C:/Users/Acer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy7.pfb>
-Output written on report1.pdf (29 pages, 1776379 bytes).
+Output written on report1.pdf (28 pages, 1780119 bytes).
 PDF statistics:
- 1454 PDF objects out of 1728 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
+ 1450 PDF objects out of 1728 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
  701 words of extra memory for PDF output out of 10000 (max. 10000000)
 
