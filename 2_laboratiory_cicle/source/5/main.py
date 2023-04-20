@@ -1,10 +1,10 @@
 import numpy as np
 import scipy.stats as sps
 import matplotlib.pyplot as plt
-import seaborn as sb 
 from matplotlib.patches import Ellipse
 import matplotlib.transforms as transforms
 
+# квадратный коэффициент корреляции
 def quadrant_coeff(x,y):
     n = len(x)
     n1, n2, n3, n4 = 0, 0, 0, 0
@@ -21,12 +21,14 @@ def quadrant_coeff(x,y):
             n4 += 1
     return ((n1 + n3) - (n2 + n4)) / n
 
-ros = [0, 0.5, 0.9, 'mix']
-numbers = [20, 60, 100]
+ros = [0, 0.5, 0.9, 'mix'] # коэффициенты корреляции
+numbers = [20, 60, 100] # размеры выборки
 
+# генерация смеси нормальных распределений
 def mix_multivariate_normal(size):
     return 0.9 * sps.multivariate_normal.rvs([0, 0], [[1.0, 0.9], [0.9, 1.0]], size=size) + 0.1 * sps.multivariate_normal.rvs([0, 0], [[10.0, -0.9], [-0.9, 10.0]], size=size)
 
+# поиск и запись в файл различных коэффициентов корреляции для разных распределений
 def compute_corr_coeffs():
     file = open("result.txt", 'w')
     for ro in ros:
@@ -66,6 +68,7 @@ def compute_corr_coeffs():
             file.write(f'\\hline \\hline \n')
     file.close()
 
+# создание эллипса рассеивания для конкретной выборки
 def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
 
     cov = np.cov(x, y)
@@ -89,7 +92,7 @@ def confidence_ellipse(x, y, ax, n_std=3.0, facecolor='none', **kwargs):
     ellipse.set_transform(transf + ax.transData)
     return ax.add_patch(ellipse)
 
-
+# построение эллипсов рассеивания для разных распределений 
 def plot_ellipses():
     for ro in ros:
         for n in numbers:
@@ -118,15 +121,3 @@ if __name__ == '__main__':
     # plot_ellipses()
     compute_corr_coeffs()
    
-
-
-        
-
-
-
-
-            
-
-
-
-

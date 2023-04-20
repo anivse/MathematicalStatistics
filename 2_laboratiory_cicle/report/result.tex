@@ -167,3 +167,35 @@
 	\end{tabular}
 	\caption{Эллипсы рассеивания для двумерного нормального распределения и смеси нормальных распределений, n = 100}
 \end{figure}
+
+\subsection{Оценки коэффициентов линейной регрессии}
+
+Метрика удаленности: $distance = \sum\limits_{i=0}^{n} (y_{model}[i] - y_{regr}[i])^{2} $
+
+\subsubsection{Выборка без возмущений}
+
+Критерий наименьших квадратов: $\hat{a} \approx 2.33932, \quad \hat{b} \approx 2.03879$ \\
+
+Критерий наименьших модулей: $\hat{a} \approx 2.07868, \quad \hat{b} \approx 2.02210$
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.7]{regression_without_pert.png}
+	\end{center}
+	\caption{Линейная регрессия для выборки без возмущений}
+\end{figure}
+
+\subsubsection{Выборка с возмущениями}
+
+Были внесены возмущения 10 и -10 в $y_1$ и $y_{20}$ соответственно. \\
+
+Критерий наименьших квадратов: $\hat{a} \approx 2.48218, \quad \hat{b} \approx 0.61022$ \\
+
+Критерий наименьших модулей: $\hat{a} \approx 2.17987, \quad \hat{b} \approx 1.77162$
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.7]{regression_with_pert.png}
+	\end{center}
+	\caption{Линейная регрессия для выборки с возмущениями}
+\end{figure}
