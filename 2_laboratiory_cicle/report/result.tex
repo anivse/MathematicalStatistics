@@ -136,7 +136,7 @@
 
 \subsection{Эллипсы рассеивания}
 
-Для уравнения эллипса выбиралась константа равная $const = 3\sigma$
+Для уравнения эллипса выбиралиссь $\sigma_x = 1$, $\sigma_y = 1$
 
 \begin{figure}[H]
 	\begin{tabular}{cccc}
@@ -287,4 +287,58 @@ $\chi^{2}_{0.95}(4) \approx 9.49$ \\
 
 $\chi_{B}^2 = 5.07$, следовательно  $\chi_{B}^2 <\chi^{2}_{0.95}(7)$ \\
 
-\subsection{Что-то там про доверительные интервалы}
+\subsection{Доверительные интервалы для параметров нормального распределения}
+
+\begin{figure}[H]
+	\begin{tabular}{cccc}
+		\includegraphics[scale=0.3]{hist_n_20.png}
+		\includegraphics[scale=0.3]{hist_n_100.png}
+		\includegraphics[scale=0.3]{classic_m.png}
+		\includegraphics[scale=0.3]{classic_s.png}
+	\end{tabular}
+	\caption{Гистограммы нормальных распределений и доверительные интервалы их параметров}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline 
+			n & $m$ & $\sigma$ \\
+			\hline \hline 
+			20 & [-0.33, 0.46] & [0.64, 1.23] \\
+			\hline 
+			100 & [-0.25, 0.17] & [0.92, 1.21] \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Доверительные интервалы для параметров нормального распределения}
+\end{table} 
+
+\subsection{Доверительные интервалы для параметров произвольного распределения. Ассимптотический подход}
+
+
+\begin{figure}[H]
+	\begin{tabular}{cccc}
+		\includegraphics[scale=0.3]{hist_n_20.png}
+		\includegraphics[scale=0.3]{hist_n_100.png}
+		\includegraphics[scale=0.3]{asymptotic_m.png}
+		\includegraphics[scale=0.3]{asymptotic_s.png}
+	\end{tabular}
+	\caption{Гистограммы нормальных распределений и доверительные интервалы их параметров. Ассимптотический подход}
+\end{figure}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline 
+			n & $m$ & $\sigma$ \\
+			\hline \hline 
+			20 & [-0.37, 0.50] & [0.62, 1.60] \\
+			\hline 
+			100 & [-0.24, 0.15] & [0.94, 1.19] \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Доверительные интервалы для параметров произвольного распределения. Ассимптотический подход}
+\end{table} 
+
