@@ -1,0 +1,75 @@
+\section{Результаты}
+
+\subsection{Оценки исходной выборки} 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale = 0.55]{data.png}
+	\end{center}
+	\caption{Данные выборки $\bm{X}_1$}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale = 0.55]{diagram_beta_None.png}
+	\end{center}
+	\caption{Диаграмма рассеяния выборки $\bm{X}_1$ с уравновешанным интервалом неопределенности}
+\end{figure}
+
+Вычисленные внешние оценки выборки: 
+\begin{equation*}
+	\underline{\bm{J}}_1 = 5.15936 , \quad \overline{\bm{J}}_1 = 5.16446
+\end{equation*}
+\subsection{Мода и максимальная клика выборки} 
+
+Мода выборки: 
+\begin{equation*}
+	\text{mode}(\bm{X}_1) = [5.16246, 5.16255]
+\end{equation*}
+
+Максимальная клика: 
+\begin{equation*}
+	\text{max} \mu_j (\bm{X}_1) = 127
+\end{equation*}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale = 0.55]{diagram_with_mode.png}
+	\end{center}
+	\caption{Элементы выборки $\bm{X}_1$, в которые входит мода}
+\end{figure}
+
+\subsection{Варьирование неопределенности изменений}
+
+В результате решения задачи линейного программирования при оптимизации по Оскорбину были найдены следующие значения: \\
+Оценка постоянной: 
+\begin{equation*}
+	\beta = 5.16191
+\end{equation*}
+
+Коэффициент растяжения интервала неопределенности: 
+\begin{equation*}
+	w = 1.54950
+\end{equation*}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale = 0.55]{diagram_beta_5.1619115.png}
+	\end{center}
+	\caption{Диаграмма рассеяния $\bm{X}_1$ с увеличенным в $w$ раз интервалом неопределенности}
+\end{figure}
+
+Красной пунктирной линией обозначена оценка постоянной.
+
+\subsection{Коэффициент Жакара и относительная ширина моды}
+
+Получены следующие значения: \\
+Индекс Жакара: 
+\begin{equation*}
+	J_i(\bm{X}_1) = -0.21553
+\end{equation*}
+
+Относительная ширина моды: 
+\begin{equation*}
+	\rho(\text{mode}(\bm{X}_1)) = 0.01824
+\end{equation*}
